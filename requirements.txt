@@ -2,11 +2,8 @@ streamlit
 langchain
 langchain-google-genai
 typing-extensions
-random
-re
-datetime
-pandas  # For working with datasets if `load_album_data` uses pandas
-numpy   # Optional, depending on how your dataset is structured
-google-auth  # For Google API integration
-google-cloud-core  # For Google API integration
-google-generative-ai  # For the `ChatGoogleGenerativeAI` class
+pandas  # If `load_album_data` uses pandas
+numpy   # Optional, depending on the dataset
+google-auth
+google-cloud-core
+google-generative-ai
