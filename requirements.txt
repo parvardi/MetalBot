@@ -4,6 +4,3 @@ langchain-google-genai
 typing-extensions
 pandas  # If `load_album_data` uses pandas
 numpy   # Optional, depending on the dataset
-google-auth
-google-cloud-core
-google-generative-ai
